@@ -9,31 +9,31 @@ I due progetti si eseguono in **MATLAB** o **MATLAB Online**. Entrambi usano MAT
 
 ## Video delle simulazioni
 
-Il pacchetto locale contiene i tre filmati. Dopo la pubblicazione sarà possibile scaricarli singolarmente dalla [release delle simulazioni](https://github.com/cyborg-ai-git/0322508INGINF04_0322500142/releases/tag/simulazioni-ode45-v2).
+Puoi guardare le tre simulazioni qui sotto o scaricare i singoli MP4 dalla [release delle simulazioni](https://github.com/cyborg-ai-git/0322508INGINF04_0322500142/releases/tag/simulazioni-ode45-v2).
 
 ### Manipolatore 4R a grande escursione
 
-https://github.com/user-attachments/assets/9a05f151-04f4-49e7-94d8-abcd0ab0cdfa
+https://github.com/user-attachments/assets/f4cd2d8d-4c20-4cb5-a444-235f4e14313b
 
 In 12 s la catena si piega e si distende sui due lati della base. Le scie puntinate seguono le origini interne O1, O2 e O3. La punta O4 lascia la traccia blu. A destra, i cursori sincronizzano posizione, errore e coppia dei quattro giunti. Il video include tutti i 601 campioni MATLAB a 50 fotogrammi/s. [Scarica il video MP4](https://github.com/cyborg-ai-git/0322508INGINF04_0322500142/releases/download/simulazioni-ode45-v2/manipolatore_4R_articolato.mp4)
 
 ### Manipolatore 4R nella prova nominale
 
-https://github.com/user-attachments/assets/d941353c-7c0e-46e7-aa9e-70741f25c0f6
+https://github.com/user-attachments/assets/54d0e393-5f7a-4951-ac9f-3164bd291c95
 
 Dieci secondi a velocità reale. Le terne DH seguono i quattro giunti durante l’inseguimento del bersaglio. Il grafico mostra come varia l’errore della punta. [Scarica il video MP4](https://github.com/cyborg-ai-git/0322508INGINF04_0322500142/releases/download/simulazioni-ode45-v2/manipolatore_4R.mp4)
 
 ### Robot mobile differenziale
 
-https://github.com/user-attachments/assets/b3a463a5-06d1-4e34-809f-1a1d9182869e
+https://github.com/user-attachments/assets/6d9b836b-87e6-41f2-ba52-40665ddc4aa3
 
 Il filmato riproduce a velocità quadrupla i 58,4 s simulati. La mappa mostra il waypoint attivo e il percorso tra gli ostacoli. Il dettaglio del telaio e il grafico delle velocità permettono di seguire le manovre delle due ruote. [Scarica il video MP4](https://github.com/cyborg-ai-git/0322508INGINF04_0322500142/releases/download/simulazioni-ode45-v2/robot_mobile.mp4)
 
 ## Avvio in MATLAB Online o in MATLAB locale
 
-Aprire [MATLAB Online](https://matlab.mathworks.com/) oppure avviare MATLAB sul computer. Con il pacchetto locale, estrarre robotica_matlab.zip e aprire la cartella robotica_elaborati. Dopo la pubblicazione, i sorgenti si potranno clonare dalla [repository pubblica su GitHub](https://github.com/cyborg-ai-git/0322508INGINF04_0322500142).
+Aprire [MATLAB Online](https://matlab.mathworks.com/) oppure avviare MATLAB sul computer. Con il pacchetto locale, estrarre `robotica_matlab.zip` e aprire la cartella `robotica_elaborati`. Per scaricare i sorgenti, clonare la [repository pubblica su GitHub](https://github.com/cyborg-ai-git/0322508INGINF04_0322500142).
 
-### Clonare il progetto da GitHub dopo la pubblicazione
+### Clonare il progetto da GitHub
 
 In MATLAB Online, eseguire `cd(matlabdrive)` nella Command Window. In locale, scegliere la cartella di lavoro e verificare che Git sia disponibile da riga di comando. Il comando seguente scarica l’ultima versione dei sorgenti e del README. I filmati sono inclusi nel pacchetto locale.
 
