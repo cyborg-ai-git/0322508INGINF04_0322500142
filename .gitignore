@@ -1,0 +1,11 @@
+# Sorgenti MATLAB e istruzioni. I video sono allegati alla release.
+*
+run_github_repository.sh
+!/.gitignore
+!/README.md
+!/elaborato_4R/
+!/elaborato_mobile_differenziale/
+!/elaborato_4R/codice/
+!/elaborato_mobile_differenziale/codice/
+!/elaborato_4R/codice/*.m
+!/elaborato_mobile_differenziale/codice/*.m
